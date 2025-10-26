@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Baobab Bound Adventures - Esperienze Safari Africane",
+    "description": "Intraprendi Baobab Bound Adventures: Dove i giganti antichi dell'Africa fanno la guardia su orizzonti infiniti. Esperienze safari africane su misura in Tanzania e oltre."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Chi Siamo",
+    "tours": "Tour",
+    "destinations": "Destinazioni",
+    "travelStyles": "Stili di Viaggio",
+    "blog": "Blog",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "title": "Intraprendi Baobab Bound Adventures",
+    "subtitle": "Dove i giganti antichi dell'Africa fanno la guardia su orizzonti infiniti...",
+    "cta": "Pianifica la tua Avventura"
+  },
+  "process": {
+    "title": "Il tuo Viaggio verso l'Avventura",
+    "step1": {
+      "title": "Incontra il tuo Esperto",
+      "description": "Connettiti con i nostri specialisti safari locali che conoscono i gioielli nascosti dell'Africa"
+    },
+    "step2": {
+      "title": "Crea il tuo Itinerario",
+      "description": "Percorsi personalizzati progettati intorno ai tuoi interessi e preferenze"
+    },
+    "step3": {
+      "title": "Preparati per l'Avventura",
+      "description": "Guida completa al viaggio e supporto nella preparazione"
+    },
+    "step4": {
+      "title": "Viaggia in Sicurezza",
+      "description": "Supporto 24/7 e sicurezza durante tutta la tua avventura africana"
+    }
+  },
+  "tours": {
+    "title": "Avventure in Evidenza",
+    "learnMore": "Scopri di Più",
+    "viewAll": "Visualizza Tutti i Tour",
+    "featured1": {
+      "title": "Safari Baobab di 7 Giorni",
+      "description": "Sperimenta la magia della fauna selvatica della Tanzania e degli antichi alberi baobab"
+    },
+    "featured2": {
+      "title": "Cima del Kilimanjaro",
+      "description": "Conquista la vetta più alta dell'Africa con guide esperte"
+    },
+    "featured3": {
+      "title": "Safari e Zanzibar",
+      "description": "Combina avventure nella fauna selvatica con relax su spiagge tropicali"
+    }
+  },
+  "destinations": {
+    "title": "Destinazioni Principali",
+    "explore": "Esplora",
+    "serengeti": {
+      "title": "Parco Nazionale del Serengeti",
+      "description": "Assisti alla Grande Migrazione nel santuario della fauna selvatica più famoso dell'Africa"
+    },
+    "ngorongoro": {
+      "title": "Cratere del Ngorongoro",
+      "description": "Esplora la caldera intatta più grande del mondo"
+    },
+    "tarangire": {
+      "title": "Parco Nazionale di Tarangire",
+      "description": "Casa di enormi mandrie di elefanti e antichi alberi baobab"
+    },
+    "manyara": {
+      "title": "Lago Manyara",
+      "description": "Scopri leoni arrampicatori e diversa avifauna"
+    },
+    "zanzibar": {
+      "title": "Isola di Zanzibar",
+      "description": "Paradiso tropicale con spiagge incontaminate e ricca cultura"
+    }
+  },
+  "travelStyles": {
+    "title": "Stili di Viaggio",
+    "explore": "Esplora",
+    "hiking": {
+      "title": "Escursionismo e Trekking",
+      "description": "Avventura a piedi attraverso i paesaggi più spettacolari dell'Africa"
+    },
+    "luxury": {
+      "title": "Safari di Lusso",
+      "description": "Alloggi premium ed esperienze esclusive della fauna selvatica"
+    },
+    "family": {
+      "title": "Safari Familiari",
+      "description": "Avventure memorabili progettate per tutte le età"
+    },
+    "cultural": {
+      "title": "Tour Culturali",
+      "description": "Immergiti nelle tradizioni locali e nelle comunità"
+    }
+  },
+  "blog": {
+    "title": "Ultime Storie",
+    "readMore": "Leggi di Più",
+    "viewAll": "Visualizza Tutte le Storie",
+    "featured1": {
+      "title": "Perché il Monte Kilimanjaro dovrebbe essere la tua prossima avventura",
+      "excerpt": "Scopri la magia della vetta più alta dell'Africa e cosa la rende una destinazione imperdibile..."
+    },
+    "featured2": {
+      "title": "La Grande Migrazione: Il più grande spettacolo della natura",
+      "excerpt": "Assisti a milioni di gnu e zebre che attraversano le pianure del Serengeti..."
+    },
+    "featured3": {
+      "title": "Sforzi di conservazione in Tanzania",
+      "excerpt": "Scopri il lavoro vitale di conservazione che protegge la fauna selvatica dell'Africa..."
+    }
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "q1": {
+      "question": "Qual è il momento migliore per visitare la Tanzania?",
+      "answer": "Il momento migliore per l'osservazione della fauna selvatica è durante la stagione secca da giugno a ottobre, quando gli animali si radunano intorno alle fonti d'acqua e la Grande Migrazione è più attiva."
+    },
+    "q2": {
+      "question": "Ho bisogno di vaccinazioni per la Tanzania?",
+      "answer": "Sì, è richiesta la vaccinazione contro la febbre gialla per la Tanzania. Raccomandiamo di consultare uno specialista in salute dei viaggi 4-6 settimane prima della partenza."
+    },
+    "q3": {
+      "question": "Cosa dovrei portare per un safari?",
+      "answer": "Porta vestiti di colori neutri, scarpe comode per camminare, una buona macchina fotografica, binocoli e strati per temperature variabili. Forniamo una lista dettagliata di imballaggio."
+    },
+    "q4": {
+      "question": "I vostri tour sono adatti alle famiglie?",
+      "answer": "Assolutamente! Offriamo safari adatti alle famiglie con attività e alloggi appropriati all'età. I bambini dai 6 anni possono godere dei nostri programmi familiari."
+    }
+  },
+  "footer": {
+    "company": "Baobab Bound Adventures",
+    "tagline": "Creando esperienze safari africane indimenticabili con saggezza antica ed esperienza moderna.",
+    "quickLinks": "Link Rapidi",
+    "services": "Servizi",
+    "contact": "Informazioni di Contatto",
+    "booking": "Prenotazione",
+    "support": "Supporto",
+    "rights": "Tutti i diritti riservati."
+  }
+}
