@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Baobab Bound Adventures - 非洲野生动物园体验",
+    "description": "踏上Baobab Bound Adventures：非洲古老的巨人守护着无尽的地平线。坦桑尼亚及更远地区的定制非洲野生动物园体验。"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于我们",
+    "tours": "旅游团",
+    "destinations": "目的地",
+    "travelStyles": "旅行风格",
+    "blog": "博客",
+    "contact": "联系我们"
+  },
+  "hero": {
+    "title": "踏上Baobab Bound Adventures",
+    "subtitle": "非洲古老的巨人守护着无尽的地平线...",
+    "cta": "规划您的冒险"
+  },
+  "process": {
+    "title": "您的冒险之旅",
+    "step1": {
+      "title": "认识您的专家",
+      "description": "与了解非洲隐藏宝石的当地野生动物园专家联系"
+    },
+    "step2": {
+      "title": "制定您的行程",
+      "description": "根据您的兴趣和偏好设计的个性化路线"
+    },
+    "step3": {
+      "title": "为冒险做准备",
+      "description": "完整的旅行指导和准备支持"
+    },
+    "step4": {
+      "title": "安全旅行",
+      "description": "在整个非洲冒险过程中提供24/7支持和安全保障"
+    }
+  },
+  "tours": {
+    "title": "精选冒险",
+    "learnMore": "了解更多",
+    "viewAll": "查看所有旅游团",
+    "featured1": {
+      "title": "7天猴面包树野生动物园",
+      "description": "体验坦桑尼亚野生动物和古老猴面包树的魔力"
+    },
+    "featured2": {
+      "title": "乞力马扎罗峰顶",
+      "description": "在专家向导的带领下征服非洲最高峰"
+    },
+    "featured3": {
+      "title": "野生动物园和桑给巴尔",
+      "description": "将野生动物冒险与热带海滩放松相结合"
+    }
+  },
+  "destinations": {
+    "title": "热门目的地",
+    "explore": "探索",
+    "serengeti": {
+      "title": "塞伦盖蒂国家公园",
+      "description": "在非洲最著名的野生动物保护区见证大迁徙"
+    },
+    "ngorongoro": {
+      "title": "恩戈罗恩戈罗火山口",
+      "description": "探索世界上最大的完整火山口"
+    },
+    "tarangire": {
+      "title": "塔兰吉雷国家公园",
+      "description": "大型象群和古老猴面包树的故乡"
+    },
+    "manyara": {
+      "title": "马尼亚拉湖",
+      "description": "发现爬树狮子和多样化的鸟类"
+    },
+    "zanzibar": {
+      "title": "桑给巴尔岛",
+      "description": "拥有原始海滩和丰富文化的热带天堂"
+    }
+  },
+  "travelStyles": {
+    "title": "旅行风格",
+    "explore": "探索",
+    "hiking": {
+      "title": "徒步和登山",
+      "description": "徒步穿越非洲最壮观的风景"
+    },
+    "luxury": {
+      "title": "豪华野生动物园",
+      "description": "高级住宿和独家野生动物体验"
+    },
+    "family": {
+      "title": "家庭野生动物园",
+      "description": "为所有年龄段设计的难忘冒险"
+    },
+    "cultural": {
+      "title": "文化之旅",
+      "description": "沉浸在当地传统和社区中"
+    }
+  },
+  "blog": {
+    "title": "最新故事",
+    "readMore": "阅读更多",
+    "viewAll": "查看所有故事",
+    "featured1": {
+      "title": "为什么乞力马扎罗山应该是您的下一个冒险",
+      "excerpt": "发现非洲最高峰的魔力以及使其成为必游目的地的原因..."
+    },
+    "featured2": {
+      "title": "大迁徙：大自然最伟大的表演",
+      "excerpt": "见证数百万角马和斑马穿越塞伦盖蒂平原..."
+    },
+    "featured3": {
+      "title": "坦桑尼亚的保护工作",
+      "excerpt": "了解保护非洲野生动物的重要保护工作..."
+    }
+  },
+  "faq": {
+    "title": "常见问题",
+    "q1": {
+      "question": "访问坦桑尼亚的最佳时间是什么时候？",
+      "answer": "观赏野生动物的最佳时间是6月至10月的旱季，此时动物聚集在水源周围，大迁徙最为活跃。"
+    },
+    "q2": {
+      "question": "我需要为坦桑尼亚接种疫苗吗？",
+      "answer": "是的，坦桑尼亚需要黄热病疫苗接种。我们建议在出发前4-6周咨询旅行健康专家。"
+    },
+    "q3": {
+      "question": "我应该为野生动物园打包什么？",
+      "answer": "打包中性色服装、舒适的步行鞋、好相机、双筒望远镜和用于不同温度的层次。我们提供详细的打包清单。"
+    },
+    "q4": {
+      "question": "您的旅游团适合家庭吗？",
+      "answer": "绝对适合！我们提供适合家庭的野生动物园，有适合年龄的活动和住宿。6岁以上的儿童可以享受我们的家庭项目。"
+    }
+  },
+  "footer": {
+    "company": "Baobab Bound Adventures",
+    "tagline": "用古老的智慧和现代的专业知识创造难忘的非洲野生动物园体验。",
+    "quickLinks": "快速链接",
+    "services": "服务",
+    "contact": "联系信息",
+    "booking": "预订",
+    "support": "支持",
+    "rights": "版权所有。"
+  }
+}
