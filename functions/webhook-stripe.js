@@ -1,9 +1,24 @@
-// Example Stripe webhook handler (verify signatures in production)
-const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+import Stripe from 'stripe';
+import nodemailer from 'nodemailer';
 
-module.exports = async (req, res) => {
-  const payload = req.body;
-  // TODO: verify signature header (Stripe-Signature) in production
-  // handle checkout.session.completed, payment_intent.succeeded, etc.
-  res.json({ received: true });
-};
+const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: { user: process.env.EMAIL_USER, pass: process.env.EMAIL_PASS }
+});
+
+export default async function handler(req, res) {
+  const event = req.body;
+
+  if(event.type === 'checkout.session.completed'){
+    const session = event.data.object;
+    const msg = {
+      from: 'Baobab Bound <info@baobabbound.com>',
+      to: session.customer_email,
+      subject: `Booking Confirmation: ${session.display_items[0].custom.name}`,
+      text: `Thank you for booking ${session.display_items[0].custom.name}. Your adventure awaits!`
+    };
+    await transporter.sendMail(msg);
+  }
+  res.status(200).end();
+}
