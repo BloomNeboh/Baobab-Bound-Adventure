@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "title": "Baobab Bound Adventures - Afrikanische Safari-Erlebnisse",
+    "description": "Begib dich auf Baobab Bound Adventures: Wo Afrikas uralte Riesen Wache über endlose Horizonte halten. Maßgeschneiderte afrikanische Safari-Erlebnisse in Tansania und darüber hinaus."
+  },
+  "nav": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "tours": "Touren",
+    "destinations": "Reiseziele",
+    "travelStyles": "Reisestile",
+    "blog": "Blog",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Begib dich auf Baobab Bound Adventures",
+    "subtitle": "Wo Afrikas uralte Riesen Wache über endlose Horizonte halten...",
+    "cta": "Plane dein Abenteuer"
+  },
+  "process": {
+    "title": "Deine Reise zum Abenteuer",
+    "step1": {
+      "title": "Triff deinen Experten",
+      "description": "Verbinde dich mit unseren lokalen Safari-Spezialisten, die Afrikas versteckte Juwelen kennen"
+    },
+    "step2": {
+      "title": "Gestalte deine Route",
+      "description": "Personalisierte Routen, die um deine Interessen und Vorlieben herum entworfen wurden"
+    },
+    "step3": {
+      "title": "Bereite dich auf das Abenteuer vor",
+      "description": "Vollständige Reiseberatung und Vorbereitungsunterstützung"
+    },
+    "step4": {
+      "title": "Reise sicher",
+      "description": "24/7 Unterstützung und Sicherheit während deines gesamten afrikanischen Abenteuers"
+    }
+  },
+  "tours": {
+    "title": "Ausgewählte Abenteuer",
+    "learnMore": "Mehr erfahren",
+    "viewAll": "Alle Touren anzeigen",
+    "featured1": {
+      "title": "7-Tage Baobab Safari",
+      "description": "Erlebe die Magie von Tansanias Tierwelt und uralten Baobab-Bäumen"
+    },
+    "featured2": {
+      "title": "Kilimanjaro Gipfel",
+      "description": "Erobere Afrikas höchsten Gipfel mit erfahrenen Führern"
+    },
+    "featured3": {
+      "title": "Safari & Sansibar",
+      "description": "Kombiniere Tierwelt-Abenteuer mit tropischer Strandentspannung"
+    }
+  },
+  "destinations": {
+    "title": "Top Reiseziele",
+    "explore": "Erkunden",
+    "serengeti": {
+      "title": "Serengeti Nationalpark",
+      "description": "Erlebe die Große Migration in Afrikas berühmtestem Wildtierreservat"
+    },
+    "ngorongoro": {
+      "title": "Ngorongoro Krater",
+      "description": "Erkunde den weltweit größten intakten Krater"
+    },
+    "tarangire": {
+      "title": "Tarangire Nationalpark",
+      "description": "Heimat riesiger Elefantenherden und uralter Baobab-Bäume"
+    },
+    "manyara": {
+      "title": "Lake Manyara",
+      "description": "Entdecke baumkletternde Löwen und vielfältige Vogelwelt"
+    },
+    "zanzibar": {
+      "title": "Sansibar Insel",
+      "description": "Tropisches Paradies mit unberührten Stränden und reicher Kultur"
+    }
+  },
+  "travelStyles": {
+    "title": "Reisestile",
+    "explore": "Erkunden",
+    "hiking": {
+      "title": "Wandern & Trekking",
+      "description": "Abenteuer zu Fuß durch Afrikas spektakulärste Landschaften"
+    },
+    "luxury": {
+      "title": "Luxus Safari",
+      "description": "Premium-Unterkünfte und exklusive Tierwelt-Erlebnisse"
+    },
+    "family": {
+      "title": "Familien Safaris",
+      "description": "Unvergessliche Abenteuer für alle Altersgruppen"
+    },
+    "cultural": {
+      "title": "Kultur-Touren",
+      "description": "Tauche ein in lokale Traditionen und Gemeinschaften"
+    }
+  },
+  "blog": {
+    "title": "Neueste Geschichten",
+    "readMore": "Weiterlesen",
+    "viewAll": "Alle Geschichten anzeigen",
+    "featured1": {
+      "title": "Warum der Kilimanjaro dein nächstes Abenteuer sein sollte",
+      "excerpt": "Entdecke die Magie von Afrikas höchstem Gipfel und was ihn zu einem Muss-Ziel macht..."
+    },
+    "featured2": {
+      "title": "Die Große Migration: Natures größte Show",
+      "excerpt": "Erlebe Millionen von Gnus und Zebras, die die Serengeti-Ebenen durchqueren..."
+    },
+    "featured3": {
+      "title": "Naturschutzbemühungen in Tansania",
+      "excerpt": "Erfahre über die lebenswichtige Naturschutzarbeit, die Afrikas Tierwelt schützt..."
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "q1": {
+      "question": "Wann ist die beste Zeit, Tansania zu besuchen?",
+      "answer": "Die beste Zeit für Tierbeobachtungen ist während der Trockenzeit von Juni bis Oktober, wenn sich Tiere um Wasserquellen versammeln und die Große Migration am aktivsten ist."
+    },
+    "q2": {
+      "question": "Benötige ich Impfungen für Tansania?",
+      "answer": "Ja, eine Gelbfieber-Impfung ist für Tansania erforderlich. Wir empfehlen, 4-6 Wochen vor der Abreise einen Reisegesundheitsspezialisten zu konsultieren."
+    },
+    "q3": {
+      "question": "Was sollte ich für eine Safari einpacken?",
+      "answer": "Packe neutrale Kleidung, bequeme Wanderschuhe, eine gute Kamera, Fernglas und Schichten für wechselnde Temperaturen. Wir stellen eine detaillierte Packliste zur Verfügung."
+    },
+    "q4": {
+      "question": "Sind eure Touren familienfreundlich?",
+      "answer": "Absolut! Wir bieten familienfreundliche Safaris mit altersgerechten Aktivitäten und Unterkünften. Kinder ab 6 Jahren können unsere Familienprogramme genießen."
+    }
+  },
+  "footer": {
+    "company": "Baobab Bound Adventures",
+    "tagline": "Schaffen unvergesslicher afrikanischer Safari-Erlebnisse mit uralter Weisheit und moderner Expertise.",
+    "quickLinks": "Schnelllinks",
+    "services": "Dienstleistungen",
+    "contact": "Kontaktinformationen",
+    "booking": "Buchung",
+    "support": "Support",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}
