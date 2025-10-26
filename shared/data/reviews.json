@@ -5,3 +5,9 @@ fetch('../shared/data/reviews.json')
     container.innerHTML = data.map(r => `<div class="carousel-slide">${r.text} — ${r.author}</div>`).join('');
     showSlide(0);
   });
+[
+  {"text": "Amazing safari experience!", "author": "John D."},
+  {"text": "Unforgettable journey!", "author": "Marie L."},
+  {"text": "The guides were phenomenal!", "author": "Carlos R."},
+  {"text": "A life-changing adventure!", "author": "Aisha M."}
+]
