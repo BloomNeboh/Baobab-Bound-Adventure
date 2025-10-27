@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Safari Tours - Baobab Bound Adventures</title>
+    <meta name="description" content="Discover our range of authentic African safari tours across Tanzania. From 2-day escapes to 8-day expeditions, find your perfect adventure.">
+    <meta name="keywords" content="safari tours Tanzania, African wildlife tours, Serengeti safari, Ngorongoro tours, Kilimanjaro trek, wildlife photography">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://baobabboundadventures.com/tours/tours.html">
+    <meta property="og:title" content="Our Safari Tours - Baobab Bound Adventures">
+    <meta property="og:description" content="Discover our range of authentic African safari tours across Tanzania. From 2-day escapes to 8-day expeditions, find your perfect adventure.">
+    <meta property="og:image" content="https://baobabboundadventures.com/images/gallery-1.webp">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="../shared/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="../index.html" class="logo">Baobab Bound Adventures</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="../index.html" data-i18n="nav.home">Home</a></li>
+                <li class="nav-item"><a href="../about.html" data-i18n="nav.about">About Us</a></li>
+                <li class="nav-item"><a href="tours.html" data-i18n="nav.tours">Tours</a></li>
+                <li class="nav-item"><a href="../destinations/destinations.html" data-i18n="nav.destinations">Destinations</a></li>
+                <li class="nav-item"><a href="../travel-styles/travel-styles.html" data-i18n="nav.travel-styles">Travel Styles</a></li>
+                <li class="nav-item"><a href="../blog/blog.html" data-i18n="nav.blog">Blog</a></li>
+                <li class="nav-item"><a href="../contact.html" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <select class="language-selector">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="zh">中文</option>
+                    <option value="ar">العربية</option>
+                    <option value="de">Deutsch</option>
+                    <option value="it">Italiano</option>
+                    <option value="ru">Русский</option>
+                    <option value="pt">Português</option>
+                </select>
+                <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(135deg, var(--primary-earth) 0%, var(--natural-green) 100%);">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Our Safari Tours</h1>
+                <p>Discover our carefully crafted collection of authentic African safari experiences, each designed to showcase Tanzania's incredible wildlife, landscapes, and cultural heritage.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Filter -->
+    <section class="section" style="padding: 2rem 0; background-color: var(--light-gray);">
+        <div class="container">
+            <div class="text-center">
+                <h3>Filter by Duration</h3>
+                <div style="margin-top: 1rem;">
+                    <button class="btn btn-secondary filter-btn active" data-duration="all">All Tours</button>
+                    <button class="btn btn-outline filter-btn" data-duration="short">2-3 Days</button>
+                    <button class="btn btn-outline filter-btn" data-duration="medium">4-5 Days</button>
+                    <button class="btn btn-outline filter-btn" data-duration="long">6+ Days</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tours Grid -->
+    <section class="section">
+        <div class="container">
+            <div class="row" id="tours-grid">
+                <!-- 7-Day Baobab Safari -->
+                <div class="col-4 tour-card" data-duration="long">
+                    <div class="card">
+                        <img src="../images/gallery-1.webp" alt="7-Day Baobab Safari" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">7-Day Baobab Safari</h3>
+                            <p class="card-text">Experience the iconic baobab trees and diverse wildlife across Tanzania's most spectacular parks. This comprehensive journey takes you through Serengeti, Ngorongoro, Tarangire, and Lake Manyara.</p>
+                            <div class="card-details">
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Duration:</span>
+                                    <span class="card-detail-value">7 Days / 6 Nights</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Difficulty:</span>
+                                    <span class="card-detail-value">Moderate</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Group Size:</span>
+                                    <span class="card-detail-value">Max 6 people</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Best Season:</span>
+                                    <span class="card-detail-value">Year-round</span>
+                                </div>
+                            </div>
+                            <div class="card-price">From $2,850 per person</div>
+                            <a href="7-day-baobab-safari.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Serengeti Great Migration -->
+                <div class="col-4 tour-card" data-duration="medium">
+                    <div class="card">
+                        <img src="../images/gallery-2.webp" alt="Serengeti Great Migration" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Serengeti Great Migration</h3>
+                            <p class="card-text">Witness one of nature's greatest spectacles as millions of wildebeest, zebra, and gazelle cross the Serengeti plains in search of fresh grazing.</p>
+                            <div class="card-details">
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Duration:</span>
+                                    <span class="card-detail-value">5 Days / 4 Nights</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Difficulty:</span>
+                                    <span class="card-detail-value">Easy</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Group Size:</span>
+                                    <span class="card-detail-value">Max 6 people</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Best Season:</span>
+                                    <span class="card-detail-value">Dec-May</span>
+                                </div>
+                            </div>
+                            <div class="card-price">From $2,200 per person</div>
+                            <a href="serengeti-great-migration.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ngorongoro Expedition -->
+                <div class="col-4 tour-card" data-duration="medium">
+                    <div class="card">
+                        <img src="../images/gallery-3.webp" alt="Ngorongoro Expedition" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Ngorongoro Expedition</h3>
+                            <p class="card-text">Explore the world's largest intact caldera and its incredible concentration of wildlife, including the Big Five and over 400 bird species.</p>
+                            <div class="card-details">
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Duration:</span>
+                                    <span class="card-detail-value">4 Days / 3 Nights</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Difficulty:</span>
+                                    <span class="card-detail-value">Easy</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Group Size:</span>
+                                    <span class="card-detail-value">Max 6 people</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Best Season:</span>
+                                    <span class="card-detail-value">Year-round</span>
+                                </div>
+                            </div>
+                            <div class="card-price">From $1,800 per person</div>
+                            <a href="ngorongoro-expedition.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarangire Wildlife Trail -->
+                <div class="col-4 tour-card" data-duration="short">
+                    <div class="card">
+                        <img src="../images/gallery-4.webp" alt="Tarangire Wildlife Trail" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Tarangire Wildlife Trail</h3>
+                            <p class="card-text">Discover Tanzania's elephant capital and its magnificent baobab-studded landscapes. Perfect for wildlife photography and bird watching.</p>
+                            <div class="card-details">
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Duration:</span>
+                                    <span class="card-detail-value">3 Days / 2 Nights</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Difficulty:</span>
+                                    <span class="card-detail-value">Easy</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Group Size:</span>
+                                    <span class="card-detail-value">Max 6 people</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Best Season:</span>
+                                    <span class="card-detail-value">Jun-Oct</span>
+                                </div>
+                            </div>
+                            <div class="card-price">From $1,400 per person</div>
+                            <a href="tarangire-wildlife-trail.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lake Manyara Escape -->
+                <div class="col-4 tour-card" data-duration="short">
+                    <div class="card">
+                        <img src="../images/gallery-5.webp" alt="Lake Manyara Escape" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Lake Manyara Escape</h3>
+                            <p class="card-text">A perfect introduction to Tanzania's wildlife with tree-climbing lions, flamingo-filled lakes, and diverse bird species in a compact 2-day adventure.</p>
+                            <div class="card-details">
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Duration:</span>
+                                    <span class="card-detail-value">2 Days / 1 Night</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Difficulty:</span>
+                                    <span class="card-detail-value">Easy</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Group Size:</span>
+                                    <span class="card-detail-value">Max 6 people</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Best Season:</span>
+                                    <span class="card-detail-value">Year-round</span>
+                                </div>
+                            </div>
+                            <div class="card-price">From $950 per person</div>
+                            <a href="lake-manyara-escape.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Kilimanjaro Trek -->
+                <div class="col-4 tour-card" data-duration="long">
+                    <div class="card">
+                        <img src="../images/gallery-6.webp" alt="Kilimanjaro Trek" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Kilimanjaro Trek</h3>
+                            <p class="card-text">Conquer Africa's highest peak with our expert guides and comprehensive support team. Choose from multiple routes including the scenic Machame route.</p>
+                            <div class="card-details">
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Duration:</span>
+                                    <span class="card-detail-value">8 Days / 7 Nights</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Difficulty:</span>
+                                    <span class="card-detail-value">Challenging</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Group Size:</span>
+                                    <span class="card-detail-value">Max 8 people</span>
+                                </div>
+                                <div class="card-detail-item">
+                                    <span class="card-detail-label">Best Season:</span>
+                                    <span class="card-detail-value">Dec-Mar, Jun-Oct</span>
+                                </div>
+                            </div>
+                            <div class="card-price">From $3,200 per person</div>
+                            <a href="kilimanjaro-trek.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Inclusions -->
+    <section class="section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <h2 class="section-title">What's Included in All Tours</h2>
+            <div class="row">
+                <div class="col-6">
+                    <h3>✅ Included</h3>
+                    <ul>
+                        <li>Professional English-speaking guide</li>
+                        <li>All park entry fees and permits</li>
+                        <li>Accommodation as specified</li>
+                        <li>All meals during the safari</li>
+                        <li>Transportation in 4x4 safari vehicle</li>
+                        <li>Drinking water throughout the tour</li>
+                        <li>Airport transfers (if specified)</li>
+                        <li>Emergency medical evacuation insurance</li>
+                    </ul>
+                </div>
+                <div class="col-6">
+                    <h3>❌ Not Included</h3>
+                    <ul>
+                        <li>International flights</li>
+                        <li>Visa fees</li>
+                        <li>Travel insurance</li>
+                        <li>Tips for guide and driver</li>
+                        <li>Personal expenses and souvenirs</li>
+                        <li>Alcoholic beverages</li>
+                        <li>Optional activities</li>
+                        <li>Accommodation before/after tour</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section">
+        <div class="container text-center">
+            <h2>Ready to Book Your Adventure?</h2>
+            <p>Contact us today to start planning your perfect safari experience</p>
+            <div style="margin-top: 2rem;">
+                <a href="../contact.html" class="btn btn-primary" style="margin-right: 1rem;">Contact Us</a>
+                <a href="../about.html" class="btn btn-secondary">Learn More About Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer.about">About Baobab Bound</h3>
+                    <p>Creating authentic African safari experiences that connect travelers with nature, culture, and adventure while supporting local communities and conservation efforts.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer.tours">Our Tours</h3>
+                    <a href="7-day-baobab-safari.html">7-Day Baobab Safari</a>
+                    <a href="serengeti-great-migration.html">Serengeti Migration</a>
+                    <a href="ngorongoro-expedition.html">Ngorongoro Expedition</a>
+                    <a href="kilimanjaro-trek.html">Kilimanjaro Trek</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer.destinations">Destinations</h3>
+                    <a href="../destinations/serengeti-national-park.html">Serengeti National Park</a>
+                    <a href="../destinations/ngorongoro-crater.html">Ngorongoro Crater</a>
+                    <a href="../destinations/tarangire-national-park.html">Tarangire National Park</a>
+                    <a href="../destinations/zanzibar.html">Zanzibar</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer.support">Support</h3>
+                    <a href="../contact.html">Contact Us</a>
+                    <a href="../about.html">About Us</a>
+                    <a href="../blog/blog.html">Blog</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">© 2024 Baobab Bound Adventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="../shared/scripts.js"></script>
+    <script>
+        // Tour filtering functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterButtons = document.querySelectorAll('.filter-btn');
+            const tourCards = document.querySelectorAll('.tour-card');
+
+            filterButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to clicked button
+                    this.classList.add('active');
+
+                    const duration = this.getAttribute('data-duration');
+
+                    tourCards.forEach(card => {
+                        if (duration === 'all' || card.getAttribute('data-duration') === duration) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
