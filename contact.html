@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Baobab Bound Adventures</title>
+    <meta name="description" content="Get in touch with Baobab Bound Adventures for your perfect safari experience. Contact us for bookings, inquiries, and personalized travel planning.">
+    <meta name="keywords" content="contact safari Tanzania, book safari tour, travel planning Tanzania, safari inquiry, Baobab Bound contact">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://baobabboundadventures.com/contact.html">
+    <meta property="og:title" content="Contact Us - Baobab Bound Adventures">
+    <meta property="og:description" content="Get in touch with Baobab Bound Adventures for your perfect safari experience. Contact us for bookings, inquiries, and personalized travel planning.">
+    <meta property="og:image" content="https://baobabboundadventures.com/images/placeholder-hero.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="shared/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">Baobab Bound Adventures</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li class="nav-item"><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li class="nav-item"><a href="tours/tours.html" data-i18n="nav.tours">Tours</a></li>
+                <li class="nav-item"><a href="destinations/destinations.html" data-i18n="nav.destinations">Destinations</a></li>
+                <li class="nav-item"><a href="travel-styles/travel-styles.html" data-i18n="nav.travel-styles">Travel Styles</a></li>
+                <li class="nav-item"><a href="blog/blog.html" data-i18n="nav.blog">Blog</a></li>
+                <li class="nav-item"><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <select class="language-selector">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="zh">中文</option>
+                    <option value="ar">العربية</option>
+                    <option value="de">Deutsch</option>
+                    <option value="it">Italiano</option>
+                    <option value="ru">Русский</option>
+                    <option value="pt">Português</option>
+                </select>
+                <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" style="background: linear-gradient(135deg, var(--primary-earth) 0%, var(--natural-green) 100%);">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Contact Us</h1>
+                <p>Ready to start your African adventure? Get in touch with our expert team for personalized safari planning and booking assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3-Step Planning Process -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Plan Your Perfect Safari in 3 Easy Steps</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="text-center">
+                        <div class="step-icon" style="font-size: 3rem; margin-bottom: 1rem;">📝</div>
+                        <h3>1. Tell Us Your Dreams</h3>
+                        <p>Share your travel preferences, interests, and budget with our safari specialists.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-center">
+                        <div class="step-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎯</div>
+                        <h3>2. We Craft Your Itinerary</h3>
+                        <p>Our experts create a personalized safari experience tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="text-center">
+                        <div class="step-icon" style="font-size: 3rem; margin-bottom: 1rem;">✈️</div>
+                        <h3>3. Embark on Adventure</h3>
+                        <p>Pack your bags and get ready for the journey of a lifetime!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form & Info -->
+    <section class="section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <h2>Send Us a Message</h2>
+                            <form id="contact-form" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name" class="form-label" data-i18n="contact.form.name">Full Name *</label>
+                                    <input type="text" id="name" name="name" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email" class="form-label" data-i18n="contact.form.email">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form-control" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone" class="form-label">Phone Number</label>
+                                    <input type="tel" id="phone" name="phone" class="form-control">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="country" class="form-label">Country</label>
+                                    <select id="country" name="country" class="form-control">
+                                        <option value="">Select your country</option>
+                                        <option value="US">United States</option>
+                                        <option value="UK">United Kingdom</option>
+                                        <option value="CA">Canada</option>
+                                        <option value="AU">Australia</option>
+                                        <option value="DE">Germany</option>
+                                        <option value="FR">France</option>
+                                        <option value="ES">Spain</option>
+                                        <option value="IT">Italy</option>
+                                        <option value="NL">Netherlands</option>
+                                        <option value="BE">Belgium</option>
+                                        <option value="CH">Switzerland</option>
+                                        <option value="AT">Austria</option>
+                                        <option value="SE">Sweden</option>
+                                        <option value="NO">Norway</option>
+                                        <option value="DK">Denmark</option>
+                                        <option value="FI">Finland</option>
+                                        <option value="JP">Japan</option>
+                                        <option value="CN">China</option>
+                                        <option value="IN">India</option>
+                                        <option value="BR">Brazil</option>
+                                        <option value="ZA">South Africa</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="tour-interest" class="form-label">Tour of Interest</label>
+                                    <select id="tour-interest" name="tour-interest" class="form-control">
+                                        <option value="">Select a tour</option>
+                                        <option value="7-day-baobab">7-Day Baobab Safari</option>
+                                        <option value="serengeti-migration">Serengeti Great Migration</option>
+                                        <option value="ngorongoro">Ngorongoro Expedition</option>
+                                        <option value="tarangire">Tarangire Wildlife Trail</option>
+                                        <option value="lake-manyara">Lake Manyara Escape</option>
+                                        <option value="kilimanjaro">Kilimanjaro Trek</option>
+                                        <option value="custom">Custom Safari</option>
+                                        <option value="not-sure">Not Sure Yet</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="travel-dates" class="form-label">Preferred Travel Dates</label>
+                                    <input type="text" id="travel-dates" name="travel-dates" class="form-control" placeholder="e.g., June 2024, Flexible">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="group-size" class="form-label">Group Size</label>
+                                    <select id="group-size" name="group-size" class="form-control">
+                                        <option value="">Select group size</option>
+                                        <option value="1">1 person</option>
+                                        <option value="2">2 people</option>
+                                        <option value="3-4">3-4 people</option>
+                                        <option value="5-6">5-6 people</option>
+                                        <option value="7+">7+ people</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="budget" class="form-label">Budget Range (per person)</label>
+                                    <select id="budget" name="budget" class="form-control">
+                                        <option value="">Select budget range</option>
+                                        <option value="under-1000">Under $1,000</option>
+                                        <option value="1000-2000">$1,000 - $2,000</option>
+                                        <option value="2000-3000">$2,000 - $3,000</option>
+                                        <option value="3000-5000">$3,000 - $5,000</option>
+                                        <option value="5000+">$5,000+</option>
+                                        <option value="flexible">Flexible</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message" class="form-label" data-i18n="contact.form.message">Your Message *</label>
+                                    <textarea id="message" name="message" class="form-control" rows="5" required placeholder="Tell us about your dream safari experience, any special requirements, or questions you might have..."></textarea>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label class="form-checkbox">
+                                        <input type="checkbox" name="newsletter" value="yes">
+                                        <span>Subscribe to our newsletter for safari tips and special offers</span>
+                                    </label>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary" data-i18n="btn.submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="contact-info">
+                        <h3>Get in Touch</h3>
+                        
+                        <div class="contact-item">
+                            <h4>📧 Email</h4>
+                            <p>info@baobabboundadventures.com</p>
+                            <p>bookings@baobabboundadventures.com</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📞 Phone</h4>
+                            <p>+255 123 456 789 (Tanzania)</p>
+                            <p>+1 555 123 4567 (US)</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>📍 Address</h4>
+                            <p>Baobab Bound Adventures<br>
+                            Arusha, Tanzania<br>
+                            East Africa</p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>🕒 Office Hours</h4>
+                            <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                            Saturday: 9:00 AM - 4:00 PM<br>
+                            Sunday: Closed</p>
+                            <p><em>(Tanzania Time, GMT+3)</em></p>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <h4>⚡ Quick Response</h4>
+                            <p>We typically respond to inquiries within 2-4 hours during business hours.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Find Us in Arusha</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <h3>📍 Our Location</h3>
+                        <p>Arusha, Tanzania</p>
+                        <p>East Africa</p>
+                        <a href="https://maps.google.com/?q=Arusha,Tanzania" target="_blank" class="btn btn-outline">View on Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Emergency Contact -->
+    <section class="section" style="background-color: var(--light-gray);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h3>🆘 Emergency Contact</h3>
+                    <p>For urgent matters during your safari or after hours:</p>
+                    <div class="emergency-info">
+                        <p><strong>Emergency Hotline:</strong> +255 123 456 789</p>
+                        <p><strong>24/7 Support:</strong> Available for all our guests</p>
+                        <p><strong>Medical Emergency:</strong> +255 123 456 790</p>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <h3>📱 Stay Connected</h3>
+                    <p>Follow us on social media for updates and safari inspiration:</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">📘 Facebook</a>
+                        <a href="#" class="social-link">📷 Instagram</a>
+                        <a href="#" class="social-link">🐦 Twitter</a>
+                        <a href="#" class="social-link">📺 YouTube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-i18n="footer.about">About Baobab Bound</h3>
+                    <p>Creating authentic African safari experiences that connect travelers with nature, culture, and adventure while supporting local communities and conservation efforts.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer.tours">Our Tours</h3>
+                    <a href="tours/7-day-baobab-safari.html">7-Day Baobab Safari</a>
+                    <a href="tours/serengeti-great-migration.html">Serengeti Migration</a>
+                    <a href="tours/ngorongoro-expedition.html">Ngorongoro Expedition</a>
+                    <a href="tours/kilimanjaro-trek.html">Kilimanjaro Trek</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer.destinations">Destinations</h3>
+                    <a href="destinations/serengeti-national-park.html">Serengeti National Park</a>
+                    <a href="destinations/ngorongoro-crater.html">Ngorongoro Crater</a>
+                    <a href="destinations/tarangire-national-park.html">Tarangire National Park</a>
+                    <a href="destinations/zanzibar.html">Zanzibar</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 data-i18n="footer.support">Support</h3>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="about.html">About Us</a>
+                    <a href="blog/blog.html">Blog</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p data-i18n="footer.copyright">© 2024 Baobab Bound Adventures. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="shared/scripts.js"></script>
+    
+    <!-- Additional Styles for Contact Page -->
+    <style>
+        .contact-info {
+            background: var(--white);
+            padding: 2rem;
+            border-radius: var(--radius-lg);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .contact-item {
+            margin-bottom: 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid var(--accent-gold-light);
+        }
+        
+        .contact-item:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .contact-item h4 {
+            color: var(--primary-earth);
+            margin-bottom: 0.5rem;
+        }
+        
+        .map-container {
+            margin-top: 2rem;
+        }
+        
+        .map-placeholder {
+            background: var(--light-gray);
+            height: 400px;
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .map-content h3 {
+            color: var(--primary-earth);
+            margin-bottom: 1rem;
+        }
+        
+        .emergency-info {
+            background: var(--white);
+            padding: 1.5rem;
+            border-radius: var(--radius-md);
+            border-left: 4px solid var(--accent-gold);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .social-link {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background: var(--accent-gold);
+            color: var(--white);
+            border-radius: var(--radius-md);
+            text-decoration: none;
+            transition: all var(--transition-fast);
+        }
+        
+        .social-link:hover {
+            background: var(--primary-earth);
+            transform: translateY(-2px);
+        }
+        
+        .form-checkbox {
+            display: flex;
+            align-items: flex-start;
+            gap: 0.5rem;
+            cursor: pointer;
+        }
+        
+        .form-checkbox input[type="checkbox"] {
+            margin-top: 0.2rem;
+        }
+        
+        .form-checkbox span {
+            font-size: 0.9rem;
+            color: var(--medium-gray);
+        }
+        
+        @media (max-width: 768px) {
+            .contact-info {
+                margin-top: 2rem;
+            }
+            
+            .social-links {
+                justify-content: center;
+            }
+        }
+    </style>
+    
+    <script>
+        // Contact form handling
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contact-form');
+            
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    // Get form data
+                    const formData = new FormData(contactForm);
+                    const data = Object.fromEntries(formData);
+                    
+                    // Simple validation
+                    if (!data.name || !data.email || !data.message) {
+                        alert('Please fill in all required fields.');
+                        return;
+                    }
+                    
+                    // Simulate form submission
+                    const submitBtn = contactForm.querySelector('button[type="submit"]');
+                    const originalText = submitBtn.textContent;
+                    
+                    submitBtn.textContent = 'Sending...';
+                    submitBtn.disabled = true;
+                    
+                    setTimeout(() => {
+                        alert('Thank you for your message! We\'ll get back to you within 2-4 hours.');
+                        contactForm.reset();
+                        submitBtn.textContent = originalText;
+                        submitBtn.disabled = false;
+                    }, 2000);
+                });
+            }
+        });
+    </script>
+</body>
+</html>
