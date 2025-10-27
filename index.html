@@ -3,321 +3,444 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baobab Bound Adventures - African Safari Experiences</title>
-    <meta name="description" content="Embark on Baobab Bound Adventures: Where Africa's ancient giants stand sentinel over endless horizons. Bespoke African safari experiences in Tanzania and beyond.">
-    <meta name="keywords" content="African safari, Tanzania tours, baobab adventures, wildlife conservation, bespoke travel">
+    <title>Baobab Bound Adventures - Authentic African Safari Experiences</title>
+    <meta name="description" content="Experience authentic African safaris with Baobab Bound Adventures. Expert-guided tours across Tanzania and Africa with sustainable, ethical tourism practices.">
+    <meta name="keywords" content="African safari, Tanzania tours, wildlife photography, cultural immersion, sustainable tourism, baobab adventures">
+    <meta name="author" content="Baobab Bound Adventures">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://baobabboundadventures.com/">
+    <meta property="og:title" content="Baobab Bound Adventures - Authentic African Safari Experiences">
+    <meta property="og:description" content="Experience authentic African safaris with Baobab Bound Adventures. Expert-guided tours across Tanzania and Africa with sustainable, ethical tourism practices.">
+    <meta property="og:image" content="https://baobabboundadventures.com/images/placeholder-hero.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://baobabboundadventures.com/">
+    <meta property="twitter:title" content="Baobab Bound Adventures - Authentic African Safari Experiences">
+    <meta property="twitter:description" content="Experience authentic African safaris with Baobab Bound Adventures. Expert-guided tours across Tanzania and Africa with sustainable, ethical tourism practices.">
+    <meta property="twitter:image" content="https://baobabboundadventures.com/images/placeholder-hero.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Styles -->
     <link rel="stylesheet" href="shared/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "TravelAgency",
+      "name": "Baobab Bound Adventures",
+      "description": "Authentic African safari experiences across Tanzania and Africa",
+      "url": "https://baobabboundadventures.com",
+      "logo": "https://baobabboundadventures.com/images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TZ",
+        "addressRegion": "Arusha"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+255-123-456-789",
+        "contactType": "customer service"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "reviewCount": "127"
+      }
+    }
+    </script>
 </head>
 <body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <a href="index.html" data-i18n="nav.home">Baobab Bound Adventures</a>
-                </div>
-                <div class="nav-menu" id="nav-menu">
-                    <a href="index.html" class="nav-link" data-i18n="nav.home">Home</a>
-                    <a href="about.html" class="nav-link" data-i18n="nav.about">About</a>
-                    <a href="tours/tours.html" class="nav-link" data-i18n="nav.tours">Tours</a>
-                    <a href="destinations/destinations.html" class="nav-link" data-i18n="nav.destinations">Destinations</a>
-                    <a href="travel-styles/travel-styles.html" class="nav-link" data-i18n="nav.travelStyles">Travel Styles</a>
-                    <a href="blog/blog.html" class="nav-link" data-i18n="nav.blog">Blog</a>
-                    <a href="contact.html" class="nav-link" data-i18n="nav.contact">Contact</a>
-                </div>
-                <div class="nav-controls">
-                    <div class="language-selector">
-                        <select id="language-selector">
-                            <option value="en">EN</option>
-                            <option value="es">ES</option>
-                            <option value="zh">中文</option>
-                            <option value="ar">العربية</option>
-                            <option value="de">DE</option>
-                            <option value="it">IT</option>
-                            <option value="ru">RU</option>
-                            <option value="pt">PT</option>
-                        </select>
-                    </div>
-                    <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
-                        <i class="fas fa-sun"></i>
-                    </button>
-                    <button class="nav-toggle" id="nav-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
-                </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container navbar-container">
+            <a href="index.html" class="logo">Baobab Bound Adventures</a>
+            
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" data-i18n="nav.home">Home</a></li>
+                <li class="nav-item"><a href="about.html" data-i18n="nav.about">About Us</a></li>
+                <li class="nav-item"><a href="tours/tours.html" data-i18n="nav.tours">Tours</a></li>
+                <li class="nav-item"><a href="destinations/destinations.html" data-i18n="nav.destinations">Destinations</a></li>
+                <li class="nav-item"><a href="travel-styles/travel-styles.html" data-i18n="nav.travel-styles">Travel Styles</a></li>
+                <li class="nav-item"><a href="blog/blog.html" data-i18n="nav.blog">Blog</a></li>
+                <li class="nav-item"><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
+            </ul>
+            
+            <div class="nav-controls">
+                <select class="language-selector">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                    <option value="zh">中文</option>
+                    <option value="ar">العربية</option>
+                    <option value="de">Deutsch</option>
+                    <option value="it">Italiano</option>
+                    <option value="ru">Русский</option>
+                    <option value="pt">Português</option>
+                </select>
+                <button class="theme-toggle" aria-label="Toggle theme">🌙</button>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">☰</button>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
     <!-- Hero Section -->
     <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title" data-i18n="hero.title">Embark on Baobab Bound Adventures</h1>
-            <p class="hero-subtitle" data-i18n="hero.subtitle">Where Africa's ancient giants stand sentinel over endless horizons...</p>
-            <a href="contact.html" class="btn btn-primary" data-i18n="hero.cta">Plan Your Adventure</a>
-        </div>
-        <div class="hero-image">
-            <img src="images/placeholder-hero.jpg" alt="African baobab tree at sunset" loading="eager">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-i18n="hero.title">Embark on Baobab Bound Adventures</h1>
+                <p data-i18n="hero.subtitle">where Africa's ancient giants stand sentinel over endless horizons, weaving tales of wild wonders and unforgettable journeys through savannahs, summits, and sun-kissed shores.</p>
+                <a href="contact.html" class="btn btn-primary btn-lg" data-i18n="hero.cta">Plan Your Adventure</a>
+            </div>
         </div>
     </section>
 
-    <!-- Process Section -->
-    <section class="process">
+    <!-- Process Steps -->
+    <section class="section">
         <div class="container">
-            <h2 class="section-title" data-i18n="process.title">Your Journey to Adventure</h2>
-            <div class="process-grid">
+            <h2 class="section-title" data-i18n="process.title">How We Create Your Perfect Safari</h2>
+            <div class="process-steps">
                 <div class="process-step">
-                    <div class="process-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
                     <h3 data-i18n="process.step1.title">Meet Your Expert</h3>
-                    <p data-i18n="process.step1.description">Connect with our local safari specialists who know Africa's hidden gems</p>
+                    <p data-i18n="process.step1.desc">Connect with our local safari specialists who understand every corner of Africa's wilderness.</p>
                 </div>
                 <div class="process-step">
-                    <div class="process-icon">
-                        <i class="fas fa-route"></i>
-                    </div>
                     <h3 data-i18n="process.step2.title">Craft Your Itinerary</h3>
-                    <p data-i18n="process.step2.description">Personalized routes designed around your interests and preferences</p>
+                    <p data-i18n="process.step2.desc">Personalized journey planning tailored to your interests, budget, and travel style.</p>
                 </div>
                 <div class="process-step">
-                    <div class="process-icon">
-                        <i class="fas fa-suitcase"></i>
-                    </div>
                     <h3 data-i18n="process.step3.title">Prepare for Adventure</h3>
-                    <p data-i18n="process.step3.description">Complete travel guidance and preparation support</p>
+                    <p data-i18n="process.step3.desc">Complete pre-trip guidance including packing lists, health requirements, and cultural insights.</p>
                 </div>
                 <div class="process-step">
-                    <div class="process-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
                     <h3 data-i18n="process.step4.title">Journey Securely</h3>
-                    <p data-i18n="process.step4.description">24/7 support and safety throughout your African adventure</p>
+                    <p data-i18n="process.step4.desc">Safe, guided exploration with 24/7 support and expert local knowledge throughout your adventure.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Tours Teaser -->
-    <section class="tours-teaser">
+    <!-- Featured Tours -->
+    <section class="section">
         <div class="container">
-            <h2 class="section-title" data-i18n="tours.title">Featured Adventures</h2>
-            <div class="tours-grid">
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="images/gallery-1.webp" alt="7-Day Baobab Safari" loading="lazy">
-                    </div>
-                    <div class="tour-content">
-                        <h3 data-i18n="tours.featured1.title">7-Day Baobab Safari</h3>
-                        <p data-i18n="tours.featured1.description">Experience the magic of Tanzania's wildlife and ancient baobab trees</p>
-                        <div class="tour-price">From $2,850</div>
-                        <a href="tours/7-day-baobab-safari.html" class="btn btn-secondary" data-i18n="tours.learnMore">Learn More</a>
-                    </div>
-                </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="images/gallery-2.webp" alt="Kilimanjaro Trek" loading="lazy">
-                    </div>
-                    <div class="tour-content">
-                        <h3 data-i18n="tours.featured2.title">Kilimanjaro Summit</h3>
-                        <p data-i18n="tours.featured2.description">Conquer Africa's highest peak with expert guides</p>
-                        <div class="tour-price">From $1,950</div>
-                        <a href="tours/tours.html" class="btn btn-secondary" data-i18n="tours.learnMore">Learn More</a>
+            <h2 class="section-title" data-i18n="section.featured-tours">Featured Tours</h2>
+            <p class="section-subtitle" data-i18n="section.tours-subtitle">Discover our most popular safari experiences, each carefully crafted to showcase Africa's incredible wildlife and landscapes.</p>
+            
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-1.webp" alt="7-Day Baobab Safari" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">7-Day Baobab Safari</h3>
+                            <p class="card-text">Experience the iconic baobab trees and diverse wildlife across Tanzania's most spectacular parks.</p>
+                            <div class="card-details">
+                                <span class="card-duration">7 Days</span>
+                                <span class="card-price">From $2,850</span>
+                            </div>
+                            <a href="tours/7-day-baobab-safari.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
                     </div>
                 </div>
-                <div class="tour-card">
-                    <div class="tour-image">
-                        <img src="images/gallery-3.webp" alt="Zanzibar Beach" loading="lazy">
+                
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-2.webp" alt="Serengeti Great Migration" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Serengeti Great Migration</h3>
+                            <p class="card-text">Witness one of nature's greatest spectacles as millions of wildebeest cross the Serengeti plains.</p>
+                            <div class="card-details">
+                                <span class="card-duration">5 Days</span>
+                                <span class="card-price">From $2,200</span>
+                            </div>
+                            <a href="tours/serengeti-great-migration.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
                     </div>
-                    <div class="tour-content">
-                        <h3 data-i18n="tours.featured3.title">Safari & Zanzibar</h3>
-                        <p data-i18n="tours.featured3.description">Combine wildlife adventures with tropical beach relaxation</p>
-                        <div class="tour-price">From $3,200</div>
-                        <a href="tours/tours.html" class="btn btn-secondary" data-i18n="tours.learnMore">Learn More</a>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-3.webp" alt="Ngorongoro Expedition" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Ngorongoro Expedition</h3>
+                            <p class="card-text">Explore the world's largest intact caldera and its incredible concentration of wildlife.</p>
+                            <div class="card-details">
+                                <span class="card-duration">4 Days</span>
+                                <span class="card-price">From $1,800</span>
+                            </div>
+                            <a href="tours/ngorongoro-expedition.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center">
-                <a href="tours/tours.html" class="btn btn-primary" data-i18n="tours.viewAll">View All Tours</a>
+            
+            <div class="row mt-4">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-4.webp" alt="Tarangire Wildlife Trail" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Tarangire Wildlife Trail</h3>
+                            <p class="card-text">Discover Tanzania's elephant capital and its magnificent baobab-studded landscapes.</p>
+                            <div class="card-details">
+                                <span class="card-duration">3 Days</span>
+                                <span class="card-price">From $1,400</span>
+                            </div>
+                            <a href="tours/tarangire-wildlife-trail.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-5.webp" alt="Lake Manyara Escape" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Lake Manyara Escape</h3>
+                            <p class="card-text">A perfect introduction to Tanzania's wildlife with tree-climbing lions and flamingo-filled lakes.</p>
+                            <div class="card-details">
+                                <span class="card-duration">2 Days</span>
+                                <span class="card-price">From $950</span>
+                            </div>
+                            <a href="tours/lake-manyara-escape.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-6.webp" alt="Kilimanjaro Trek" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Kilimanjaro Trek</h3>
+                            <p class="card-text">Conquer Africa's highest peak with our expert guides and comprehensive support team.</p>
+                            <div class="card-details">
+                                <span class="card-duration">8 Days</span>
+                                <span class="card-price">From $3,200</span>
+                            </div>
+                            <a href="tours/kilimanjaro-trek.html" class="btn btn-primary" data-i18n="btn.view-details">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-4">
+                <a href="tours/tours.html" class="btn btn-secondary" data-i18n="btn.view-all-tours">View All Tours</a>
             </div>
         </div>
     </section>
 
-    <!-- Destinations Teaser -->
-    <section class="destinations-teaser">
+    <!-- Top Destinations -->
+    <section class="section" style="background-color: var(--light-gray);">
         <div class="container">
-            <h2 class="section-title" data-i18n="destinations.title">Top Destinations</h2>
-            <div class="destinations-grid">
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="images/serengeti.jpg" alt="Serengeti National Park" loading="lazy">
-                    </div>
-                    <div class="destination-content">
-                        <h3 data-i18n="destinations.serengeti.title">Serengeti National Park</h3>
-                        <p data-i18n="destinations.serengeti.description">Witness the Great Migration in Africa's most famous wildlife sanctuary</p>
-                        <a href="destinations/serengeti-national-park.html" class="btn btn-outline" data-i18n="destinations.explore">Explore</a>
-                    </div>
-                </div>
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="images/ngorongoro.jpg" alt="Ngorongoro Crater" loading="lazy">
-                    </div>
-                    <div class="destination-content">
-                        <h3 data-i18n="destinations.ngorongoro.title">Ngorongoro Crater</h3>
-                        <p data-i18n="destinations.ngorongoro.description">Explore the world's largest intact caldera</p>
-                        <a href="destinations/destinations.html" class="btn btn-outline" data-i18n="destinations.explore">Explore</a>
+            <h2 class="section-title" data-i18n="section.top-destinations">Top Destinations</h2>
+            <p class="section-subtitle" data-i18n="section.destinations-subtitle">Explore Tanzania's most iconic national parks and discover the incredible diversity of African wildlife.</p>
+            
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-7.webp" alt="Serengeti National Park" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Serengeti National Park</h3>
+                            <p class="card-text">The world's most famous wildlife sanctuary, home to the Great Migration and the Big Five.</p>
+                            <a href="destinations/serengeti-national-park.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="images/tarangire.jpg" alt="Tarangire National Park" loading="lazy">
-                    </div>
-                    <div class="destination-content">
-                        <h3 data-i18n="destinations.tarangire.title">Tarangire National Park</h3>
-                        <p data-i18n="destinations.tarangire.description">Home to massive elephant herds and ancient baobab trees</p>
-                        <a href="destinations/destinations.html" class="btn btn-outline" data-i18n="destinations.explore">Explore</a>
-                    </div>
-                </div>
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="images/manyara.jpg" alt="Lake Manyara" loading="lazy">
-                    </div>
-                    <div class="destination-content">
-                        <h3 data-i18n="destinations.manyara.title">Lake Manyara</h3>
-                        <p data-i18n="destinations.manyara.description">Discover tree-climbing lions and diverse birdlife</p>
-                        <a href="destinations/destinations.html" class="btn btn-outline" data-i18n="destinations.explore">Explore</a>
+                
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-8.webp" alt="Ngorongoro Crater" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Ngorongoro Crater</h3>
+                            <p class="card-text">A natural wonder and UNESCO World Heritage Site with the highest density of wildlife in Africa.</p>
+                            <a href="destinations/ngorongoro-crater.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="destination-card">
-                    <div class="destination-image">
-                        <img src="images/zanzibar.jpg" alt="Zanzibar Island" loading="lazy">
+                
+                <div class="col-4">
+                    <div class="card">
+                        <img src="images/gallery-9.webp" alt="Tarangire National Park" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Tarangire National Park</h3>
+                            <p class="card-text">Famous for its massive elephant herds and ancient baobab trees dotting the landscape.</p>
+                            <a href="destinations/tarangire-national-park.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
-                    <div class="destination-content">
-                        <h3 data-i18n="destinations.zanzibar.title">Zanzibar Island</h3>
-                        <p data-i18n="destinations.zanzibar.description">Tropical paradise with pristine beaches and rich culture</p>
-                        <a href="destinations/destinations.html" class="btn btn-outline" data-i18n="destinations.explore">Explore</a>
+                </div>
+            </div>
+            
+            <div class="row mt-4">
+                <div class="col-6">
+                    <div class="card">
+                        <img src="images/gallery-10.webp" alt="Lake Manyara" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Lake Manyara</h3>
+                            <p class="card-text">A birdwatcher's paradise with tree-climbing lions and thousands of flamingos.</p>
+                            <a href="destinations/lake-manyara.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-6">
+                    <div class="card">
+                        <img src="images/gallery-11.webp" alt="Zanzibar" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Zanzibar</h3>
+                            <p class="card-text">The perfect beach escape with pristine white sands, turquoise waters, and rich cultural heritage.</p>
+                            <a href="destinations/zanzibar.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Travel Styles Teaser -->
-    <section class="travel-styles-teaser">
+    <!-- Travel Styles -->
+    <section class="section">
         <div class="container">
-            <h2 class="section-title" data-i18n="travelStyles.title">Travel Styles</h2>
-            <div class="styles-grid">
-                <div class="style-card">
-                    <div class="style-icon">
-                        <i class="fas fa-hiking"></i>
+            <h2 class="section-title" data-i18n="section.travel-styles">Travel Styles</h2>
+            <p class="section-subtitle" data-i18n="section.styles-subtitle">Find your perfect adventure style, from thrilling treks to cultural immersions and relaxing beach escapes.</p>
+            
+            <div class="row">
+                <div class="col-3">
+                    <div class="card">
+                        <img src="images/gallery-12.webp" alt="Hiking & Trekking" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Hiking & Trekking</h3>
+                            <p class="card-text">Conquer peaks and explore trails with our expert mountain guides.</p>
+                            <a href="travel-styles/hiking-trekking.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
-                    <h3 data-i18n="travelStyles.hiking.title">Hiking & Trekking</h3>
-                    <p data-i18n="travelStyles.hiking.description">Adventure on foot through Africa's most spectacular landscapes</p>
-                    <a href="travel-styles/hiking-trekking.html" class="btn btn-outline" data-i18n="travelStyles.explore">Explore</a>
                 </div>
-                <div class="style-card">
-                    <div class="style-icon">
-                        <i class="fas fa-crown"></i>
+                
+                <div class="col-3">
+                    <div class="card">
+                        <img src="images/gallery-13.webp" alt="Cultural Immersion" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Cultural Immersion</h3>
+                            <p class="card-text">Connect with local communities and experience authentic African culture.</p>
+                            <a href="travel-styles/cultural-immersion.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
-                    <h3 data-i18n="travelStyles.luxury.title">Luxury Safari</h3>
-                    <p data-i18n="travelStyles.luxury.description">Premium accommodations and exclusive wildlife experiences</p>
-                    <a href="travel-styles/travel-styles.html" class="btn btn-outline" data-i18n="travelStyles.explore">Explore</a>
                 </div>
-                <div class="style-card">
-                    <div class="style-icon">
-                        <i class="fas fa-users"></i>
+                
+                <div class="col-3">
+                    <div class="card">
+                        <img src="images/gallery-14.webp" alt="Beach Escapes" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Beach Escapes</h3>
+                            <p class="card-text">Relax on pristine beaches and enjoy water sports in paradise.</p>
+                            <a href="travel-styles/beach-escapes.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
-                    <h3 data-i18n="travelStyles.family.title">Family Safaris</h3>
-                    <p data-i18n="travelStyles.family.description">Memorable adventures designed for all ages</p>
-                    <a href="travel-styles/travel-styles.html" class="btn btn-outline" data-i18n="travelStyles.explore">Explore</a>
                 </div>
-                <div class="style-card">
-                    <div class="style-icon">
-                        <i class="fas fa-mask"></i>
+                
+                <div class="col-3">
+                    <div class="card">
+                        <img src="images/gallery-15.webp" alt="Wildlife Photography" class="card-img" loading="lazy">
+                        <div class="card-body">
+                            <h3 class="card-title">Wildlife Photography</h3>
+                            <p class="card-text">Capture stunning wildlife moments with professional photography guidance.</p>
+                            <a href="travel-styles/wildlife-photography.html" class="btn btn-outline" data-i18n="btn.learn-more">Learn More</a>
+                        </div>
                     </div>
-                    <h3 data-i18n="travelStyles.cultural.title">Cultural Tours</h3>
-                    <p data-i18n="travelStyles.cultural.description">Immerse yourself in local traditions and communities</p>
-                    <a href="travel-styles/travel-styles.html" class="btn btn-outline" data-i18n="travelStyles.explore">Explore</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Blog Teaser -->
-    <section class="blog-teaser">
+    <!-- Reviews Section -->
+    <section class="section" style="background-color: var(--light-gray);">
         <div class="container">
-            <h2 class="section-title" data-i18n="blog.title">Latest Stories</h2>
-            <div class="blog-grid">
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="images/blog-kilimanjaro.jpg" alt="Mount Kilimanjaro" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <h3 data-i18n="blog.featured1.title">Why Mount Kilimanjaro Should Be Your Next Adventure</h3>
-                        <p data-i18n="blog.featured1.excerpt">Discover the magic of Africa's highest peak and what makes it a must-climb destination...</p>
-                        <a href="blog/why-mount-kilimanjaro.html" class="btn btn-outline" data-i18n="blog.readMore">Read More</a>
-                    </div>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="images/blog-wildlife.jpg" alt="African Wildlife" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <h3 data-i18n="blog.featured2.title">The Great Migration: Nature's Greatest Show</h3>
-                        <p data-i18n="blog.featured2.excerpt">Witness millions of wildebeest and zebra crossing the Serengeti plains...</p>
-                        <a href="blog/blog.html" class="btn btn-outline" data-i18n="blog.readMore">Read More</a>
-                    </div>
-                </article>
-                <article class="blog-card">
-                    <div class="blog-image">
-                        <img src="images/blog-conservation.jpg" alt="Wildlife Conservation" loading="lazy">
-                    </div>
-                    <div class="blog-content">
-                        <h3 data-i18n="blog.featured3.title">Conservation Efforts in Tanzania</h3>
-                        <p data-i18n="blog.featured3.excerpt">Learn about the vital conservation work protecting Africa's wildlife...</p>
-                        <a href="blog/blog.html" class="btn btn-outline" data-i18n="blog.readMore">Read More</a>
-                    </div>
-                </article>
+            <h2 class="section-title" data-i18n="section.reviews">What Our Travelers Say</h2>
+            <div class="reviews-carousel">
+                <div class="reviews-container">
+                    <!-- Reviews will be loaded dynamically via JavaScript -->
+                </div>
             </div>
-            <div class="text-center">
-                <a href="blog/blog.html" class="btn btn-primary" data-i18n="blog.viewAll">View All Stories</a>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-i18n="section.gallery">Photo Gallery</h2>
+            <p class="section-subtitle" data-i18n="section.gallery-subtitle">Get a glimpse of the incredible experiences that await you on your Baobab Bound Adventure.</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/gallery-1.webp" alt="Lion in Serengeti" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-2.webp" alt="Elephants at waterhole" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-3.webp" alt="Baobab tree at sunset" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-4.webp" alt="Wildebeest migration" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-5.webp" alt="Giraffe in Tarangire" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-6.webp" alt="Kilimanjaro summit" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-7.webp" alt="Flamingos at Lake Manyara" class="gallery-img" loading="lazy">
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-8.webp" alt="Zanzibar beach" class="gallery-img" loading="lazy">
+                </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq">
+    <section class="section" style="background-color: var(--light-gray);">
         <div class="container">
-            <h2 class="section-title" data-i18n="faq.title">Frequently Asked Questions</h2>
-            <div class="faq-list">
+            <h2 class="section-title" data-i18n="section.faq">Frequently Asked Questions</h2>
+            <div class="faq-container">
                 <div class="faq-item">
-                    <button class="faq-question" data-i18n="faq.q1.question">What's the best time to visit Tanzania?</button>
+                    <div class="faq-question">
+                        <span data-i18n="faq.what-included">What's included in the tour?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
                     <div class="faq-answer">
-                        <p data-i18n="faq.q1.answer">The best time for wildlife viewing is during the dry season from June to October, when animals gather around water sources and the Great Migration is most active.</p>
+                        <p data-i18n="faq.what-included-answer">All tours include accommodation, meals, park fees, professional guide, and transportation. Some tours also include international flights and travel insurance.</p>
                     </div>
                 </div>
+                
                 <div class="faq-item">
-                    <button class="faq-question" data-i18n="faq.q2.question">Do I need vaccinations for Tanzania?</button>
+                    <div class="faq-question">
+                        <span data-i18n="faq.best-time">What's the best time to visit?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
                     <div class="faq-answer">
-                        <p data-i18n="faq.q2.answer">Yes, a yellow fever vaccination is required for Tanzania. We recommend consulting with a travel health specialist 4-6 weeks before departure.</p>
+                        <p data-i18n="faq.best-time-answer">The dry season (June-October) offers the best wildlife viewing, while the wet season (November-May) brings lush landscapes and fewer crowds. Each season has its unique advantages.</p>
                     </div>
                 </div>
+                
                 <div class="faq-item">
-                    <button class="faq-question" data-i18n="faq.q3.question">What should I pack for a safari?</button>
+                    <div class="faq-question">
+                        <span data-i18n="faq.safety">Is it safe to travel?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
                     <div class="faq-answer">
-                        <p data-i18n="faq.q3.answer">Pack neutral-colored clothing, comfortable walking shoes, a good camera, binoculars, and layers for varying temperatures. We provide a detailed packing list.</p>
+                        <p data-i18n="faq.safety-answer">Yes, we prioritize safety with experienced guides, quality equipment, comprehensive insurance coverage, and 24/7 support throughout your journey.</p>
                     </div>
                 </div>
+                
                 <div class="faq-item">
-                    <button class="faq-question" data-i18n="faq.q4.question">Are your tours suitable for families?</button>
+                    <div class="faq-question">
+                        <span data-i18n="faq.booking">How do I book?</span>
+                        <span class="faq-icon">▼</span>
+                    </div>
                     <div class="faq-answer">
-                        <p data-i18n="faq.q4.answer">Absolutely! We offer family-friendly safaris with age-appropriate activities and accommodations. Children as young as 6 can enjoy our family programs.</p>
+                        <p data-i18n="faq.booking-answer">You can book online through our website, contact us directly for personalized assistance, or visit our office in Arusha for face-to-face consultation.</p>
                     </div>
                 </div>
             </div>
@@ -329,45 +452,49 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3 data-i18n="footer.company">Baobab Bound Adventures</h3>
-                    <p data-i18n="footer.tagline">Creating unforgettable African safari experiences with ancient wisdom and modern expertise.</p>
+                    <h3 data-i18n="footer.about">About Baobab Bound</h3>
+                    <p>Creating authentic African safari experiences that connect travelers with nature, culture, and adventure while supporting local communities and conservation efforts.</p>
                     <div class="social-links">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="YouTube">📺</a>
                     </div>
                 </div>
+                
                 <div class="footer-section">
-                    <h4 data-i18n="footer.quickLinks">Quick Links</h4>
-                    <ul>
-                        <li><a href="about.html" data-i18n="nav.about">About</a></li>
-                        <li><a href="tours/tours.html" data-i18n="nav.tours">Tours</a></li>
-                        <li><a href="destinations/destinations.html" data-i18n="nav.destinations">Destinations</a></li>
-                        <li><a href="contact.html" data-i18n="nav.contact">Contact</a></li>
-                    </ul>
+                    <h3 data-i18n="footer.tours">Our Tours</h3>
+                    <a href="tours/7-day-baobab-safari.html">7-Day Baobab Safari</a>
+                    <a href="tours/serengeti-great-migration.html">Serengeti Migration</a>
+                    <a href="tours/ngorongoro-expedition.html">Ngorongoro Expedition</a>
+                    <a href="tours/kilimanjaro-trek.html">Kilimanjaro Trek</a>
                 </div>
+                
                 <div class="footer-section">
-                    <h4 data-i18n="footer.services">Services</h4>
-                    <ul>
-                        <li><a href="travel-styles/travel-styles.html" data-i18n="nav.travelStyles">Travel Styles</a></li>
-                        <li><a href="blog/blog.html" data-i18n="nav.blog">Blog</a></li>
-                        <li><a href="#" data-i18n="footer.booking">Booking</a></li>
-                        <li><a href="#" data-i18n="footer.support">Support</a></li>
-                    </ul>
+                    <h3 data-i18n="footer.destinations">Destinations</h3>
+                    <a href="destinations/serengeti-national-park.html">Serengeti National Park</a>
+                    <a href="destinations/ngorongoro-crater.html">Ngorongoro Crater</a>
+                    <a href="destinations/tarangire-national-park.html">Tarangire National Park</a>
+                    <a href="destinations/zanzibar.html">Zanzibar</a>
                 </div>
+                
                 <div class="footer-section">
-                    <h4 data-i18n="footer.contact">Contact Info</h4>
-                    <p><i class="fas fa-phone"></i> +255 123 456 789</p>
-                    <p><i class="fas fa-envelope"></i> info@baobabbound.com</p>
-                    <p><i class="fas fa-map-marker-alt"></i> Arusha, Tanzania</p>
+                    <h3 data-i18n="footer.support">Support</h3>
+                    <a href="contact.html">Contact Us</a>
+                    <a href="about.html">About Us</a>
+                    <a href="blog/blog.html">Blog</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Privacy Policy</a>
                 </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2025 Baobab Bound Adventures. <span data-i18n="footer.rights">All rights reserved.</span></p>
+                <p data-i18n="footer.copyright">© 2024 Baobab Bound Adventures. All rights reserved.</p>
             </div>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="shared/scripts.js"></script>
 </body>
 </html>
