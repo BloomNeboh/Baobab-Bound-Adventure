@@ -1,190 +1,60 @@
 {
-  "meta": {
-    "title": "Baobab Bound Adventures - African Safari Experiences",
-    "description": "Embark on Baobab Bound Adventures: Where Africa's ancient giants stand sentinel over endless horizons. Bespoke African safari experiences in Tanzania and beyond."
-  },
-  "nav": {
-    "home": "Home",
-    "about": "About",
-    "tours": "Tours",
-    "destinations": "Destinations",
-    "travelStyles": "Travel Styles",
-    "blog": "Blog",
-    "contact": "Contact"
-  },
-  "hero": {
-    "title": "Embark on Baobab Bound Adventures",
-    "subtitle": "Where Africa's ancient giants stand sentinel over endless horizons...",
-    "cta": "Plan Your Adventure"
-  },
-  "process": {
-    "title": "Your Journey to Adventure",
-    "step1": {
-      "title": "Meet Your Expert",
-      "description": "Connect with our local safari specialists who know Africa's hidden gems"
-    },
-    "step2": {
-      "title": "Craft Your Itinerary",
-      "description": "Personalized routes designed around your interests and preferences"
-    },
-    "step3": {
-      "title": "Prepare for Adventure",
-      "description": "Complete travel guidance and preparation support"
-    },
-    "step4": {
-      "title": "Journey Securely",
-      "description": "24/7 support and safety throughout your African adventure"
-    }
-  },
-  "tours": {
-    "title": "Featured Adventures",
-    "learnMore": "Learn More",
-    "viewAll": "View All Tours",
-    "featured1": {
-      "title": "7-Day Baobab Safari",
-      "description": "Experience the magic of Tanzania's wildlife and ancient baobab trees"
-    },
-    "featured2": {
-      "title": "Kilimanjaro Summit",
-      "description": "Conquer Africa's highest peak with expert guides"
-    },
-    "featured3": {
-      "title": "Safari & Zanzibar",
-      "description": "Combine wildlife adventures with tropical beach relaxation"
-    }
-  },
-  "destinations": {
-    "title": "Top Destinations",
-    "explore": "Explore",
-    "serengeti": {
-      "title": "Serengeti National Park",
-      "description": "Witness the Great Migration in Africa's most famous wildlife sanctuary"
-    },
-    "ngorongoro": {
-      "title": "Ngorongoro Crater",
-      "description": "Explore the world's largest intact caldera"
-    },
-    "tarangire": {
-      "title": "Tarangire National Park",
-      "description": "Home to massive elephant herds and ancient baobab trees"
-    },
-    "manyara": {
-      "title": "Lake Manyara",
-      "description": "Discover tree-climbing lions and diverse birdlife"
-    },
-    "zanzibar": {
-      "title": "Zanzibar Island",
-      "description": "Tropical paradise with pristine beaches and rich culture"
-    }
-  },
-  "travelStyles": {
-    "title": "Travel Styles",
-    "explore": "Explore",
-    "hiking": {
-      "title": "Hiking & Trekking",
-      "description": "Adventure on foot through Africa's most spectacular landscapes"
-    },
-    "luxury": {
-      "title": "Luxury Safari",
-      "description": "Premium accommodations and exclusive wildlife experiences"
-    },
-    "family": {
-      "title": "Family Safaris",
-      "description": "Memorable adventures designed for all ages"
-    },
-    "cultural": {
-      "title": "Cultural Tours",
-      "description": "Immerse yourself in local traditions and communities"
-    }
-  },
-  "blog": {
-    "title": "Latest Stories",
-    "readMore": "Read More",
-    "viewAll": "View All Stories",
-    "featured1": {
-      "title": "Why Mount Kilimanjaro Should Be Your Next Adventure",
-      "excerpt": "Discover the magic of Africa's highest peak and what makes it a must-climb destination..."
-    },
-    "featured2": {
-      "title": "The Great Migration: Nature's Greatest Show",
-      "excerpt": "Witness millions of wildebeest and zebra crossing the Serengeti plains..."
-    },
-    "featured3": {
-      "title": "Conservation Efforts in Tanzania",
-      "excerpt": "Learn about the vital conservation work protecting Africa's wildlife..."
-    }
-  },
-  "faq": {
-    "title": "Frequently Asked Questions",
-    "q1": {
-      "question": "What's the best time to visit Tanzania?",
-      "answer": "The best time for wildlife viewing is during the dry season from June to October, when animals gather around water sources and the Great Migration is most active."
-    },
-    "q2": {
-      "question": "Do I need vaccinations for Tanzania?",
-      "answer": "Yes, a yellow fever vaccination is required for Tanzania. We recommend consulting with a travel health specialist 4-6 weeks before departure."
-    },
-    "q3": {
-      "question": "What should I pack for a safari?",
-      "answer": "Pack neutral-colored clothing, comfortable walking shoes, a good camera, binoculars, and layers for varying temperatures. We provide a detailed packing list."
-    },
-    "q4": {
-      "question": "Are your tours suitable for families?",
-      "answer": "Absolutely! We offer family-friendly safaris with age-appropriate activities and accommodations. Children as young as 6 can enjoy our family programs."
-    }
-  },
-  "footer": {
-    "company": "Baobab Bound Adventures",
-    "tagline": "Creating unforgettable African safari experiences with ancient wisdom and modern expertise.",
-    "quickLinks": "Quick Links",
-    "services": "Services",
-    "contact": "Contact Info",
-    "booking": "Booking",
-    "support": "Support",
-    "rights": "All rights reserved."
-  },
-  "about": {
-    "title": "About Baobab Bound Adventures",
-    "subtitle": "Your Gateway to Authentic African Experiences",
-    "whyChoose": {
-      "title": "Why Choose Us",
-      "expertise": {
-        "title": "Local Expertise",
-        "description": "Our team of local guides and specialists have intimate knowledge of Tanzania's wildlife, culture, and hidden gems."
-      },
-      "support": {
-        "title": "24/7 Support",
-        "description": "Round-the-clock assistance from our dedicated team ensures your journey is smooth and worry-free."
-      },
-      "conservation": {
-        "title": "Conservation Focus",
-        "description": "We're committed to sustainable tourism and wildlife conservation, ensuring Africa's beauty for future generations."
-      }
-    },
-    "founder": {
-      "title": "Meet Our Founder",
-      "name": "Eliud Mchome",
-      "bio": "As the visionary behind Baobab Bound Adventures, Eliud Mchome has dedicated over 15 years to African wildlife conservation and tourism. Born and raised in Tanzania, Eliud's passion for his homeland's natural beauty and cultural heritage drives our mission to create meaningful, sustainable travel experiences.",
-      "qualifications": "Eliud holds a Master's degree in Wildlife Management and is certified by the Tanzania Tourist Board. He has led over 500 successful safaris and is a recognized expert in East African wildlife behavior and conservation practices."
-    }
-  },
-  "contact": {
-    "title": "Plan Your Adventure",
-    "subtitle": "Let's create your perfect African safari experience together",
-    "form": {
-      "name": "Full Name",
-      "email": "Email Address",
-      "phone": "Phone Number",
-      "message": "Tell us about your dream adventure",
-      "submit": "Send Message",
-      "success": "Thank you! We'll get back to you within 24 hours."
-    },
-    "info": {
-      "title": "Get in Touch",
-      "phone": "Phone",
-      "email": "Email",
-      "address": "Address",
-      "hours": "Business Hours"
-    }
-  }
+  "nav.home": "Home",
+  "nav.about": "About Us",
+  "nav.tours": "Tours",
+  "nav.destinations": "Destinations",
+  "nav.travel-styles": "Travel Styles",
+  "nav.blog": "Blog",
+  "nav.contact": "Contact",
+  "hero.title": "Embark on Baobab Bound Adventures",
+  "hero.subtitle": "where Africa's ancient giants stand sentinel over endless horizons, weaving tales of wild wonders and unforgettable journeys through savannahs, summits, and sun-kissed shores.",
+  "hero.cta": "Plan Your Adventure",
+  "section.featured-tours": "Featured Tours",
+  "section.top-destinations": "Top Destinations",
+  "section.travel-styles": "Travel Styles",
+  "section.blog-highlights": "Blog Highlights",
+  "section.reviews": "What Our Travelers Say",
+  "section.faq": "Frequently Asked Questions",
+  "section.gallery": "Photo Gallery",
+  "process.step1.title": "Meet Your Expert",
+  "process.step1.desc": "Connect with our local safari specialists",
+  "process.step2.title": "Craft Your Itinerary",
+  "process.step2.desc": "Personalized journey planning",
+  "process.step3.title": "Prepare for Adventure",
+  "process.step3.desc": "Complete pre-trip guidance",
+  "process.step4.title": "Journey Securely",
+  "process.step4.desc": "Safe, guided exploration",
+  "btn.view-details": "View Details",
+  "btn.learn-more": "Learn More",
+  "btn.book-now": "Book Now",
+  "btn.contact-us": "Contact Us",
+  "btn.read-more": "Read More",
+  "btn.submit": "Submit",
+  "card.duration": "Duration",
+  "card.price": "From",
+  "card.difficulty": "Difficulty",
+  "card.group-size": "Group Size",
+  "card.best-season": "Best Season",
+  "faq.what-included": "What's included in the tour?",
+  "faq.what-included-answer": "All tours include accommodation, meals, park fees, professional guide, and transportation.",
+  "faq.best-time": "What's the best time to visit?",
+  "faq.best-time-answer": "The dry season (June-October) offers the best wildlife viewing, while the wet season (November-May) brings lush landscapes and fewer crowds.",
+  "faq.safety": "Is it safe to travel?",
+  "faq.safety-answer": "Yes, we prioritize safety with experienced guides, quality equipment, and comprehensive insurance coverage.",
+  "faq.booking": "How do I book?",
+  "faq.booking-answer": "You can book online through our website or contact us directly for personalized assistance.",
+  "contact.form.name": "Full Name",
+  "contact.form.email": "Email Address",
+  "contact.form.message": "Your Message",
+  "contact.form.required": "This field is required",
+  "contact.form.invalid-email": "Please enter a valid email address",
+  "contact.form.success": "Thank you! We'll get back to you soon.",
+  "footer.about": "About Baobab Bound",
+  "footer.tours": "Our Tours",
+  "footer.destinations": "Destinations",
+  "footer.support": "Support",
+  "footer.follow": "Follow Us",
+  "footer.copyright": "© 2024 Baobab Bound Adventures. All rights reserved.",
+  "meta.description": "Experience authentic African safaris with Baobab Bound Adventures. Expert-guided tours across Tanzania and Africa with sustainable, ethical tourism practices.",
+  "meta.keywords": "African safari, Tanzania tours, wildlife photography, cultural immersion, sustainable tourism, baobab adventures"
 }
