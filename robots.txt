@@ -1,0 +1,24 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://baobabboundadventures.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /functions/
+Disallow: /shared/lang/
+Disallow: /shared/data/
+
+# Allow important pages
+Allow: /
+Allow: /about.html
+Allow: /contact.html
+Allow: /tours/
+Allow: /destinations/
+Allow: /travel-styles/
+Allow: /blog/
+
+# Crawl delay (optional)
+Crawl-delay: 1
